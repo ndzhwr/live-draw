@@ -9,27 +9,18 @@
 </head>
 <body>
     <div class="main">
-
-        
         <div class="header">
-            <!-- <h1>Whiteboard  </h1> -->
+            <h1 id="header" draggable="false">Whiteboard  </h1>
         </div>
-        <div class="whiteboard"> 
-            <canvas id="canvas">
-
-            </canvas>
-        </div>
+        <div class="whiteboard"><canvas id="canvas"></canvas></div>
         <div class="tools">
             <button class="colors color1"></button>
             <button class="colors color2" ></button>
             <button class="colors color3" ></button>
             <button class="colors color4"></button>
             <button class="colors color5"><img src="./assets/rubber.svg"></button>
-
-            <input type="range" id="linewidth">
-            
+            <input type="range" id="linewidth" value="2">
         </div>
-     
     </div>
     <p>Made by ndizihiwe</p>
     <script src="script.js"></script>

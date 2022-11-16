@@ -1,0 +1,1 @@
+// utility function to get the current date

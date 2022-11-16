@@ -45,7 +45,8 @@ window.addEventListener("load", (e) => {
         color = "white"
     })
 
-    let widthMaker = document.querySelector('#linewidth')
+    let widthMaker = document.getElementById('linewidth')
+    // width = widthMaker.value ;
     widthMaker.addEventListener("mouseleave", () => {
         width = widthMaker.value
     })
